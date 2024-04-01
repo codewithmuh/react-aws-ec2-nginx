@@ -58,7 +58,7 @@ it will ask you for your GitHub username and password. You can use a Personal Ac
   npm install
   ```
 ### Step 6: Create Production Build
-    ```bash
+  ```bash
   npm run build
   sudo mkdir /var/www/vhosts/frontend/
   sudo cp -R build/ /var/www/vhosts/frontend/
@@ -91,7 +91,7 @@ it will ask you for your GitHub username and password. You can use a Personal Ac
   ```
 ### Step 8: Start the Application
 - Restart Nginx and allow the changes to take place.
-    ```bash
+  ```bash
   sudo systemctl restart nginx
   sudo service nginx restart
   ```
