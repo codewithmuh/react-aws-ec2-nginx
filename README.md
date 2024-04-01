@@ -68,7 +68,9 @@ it will ask you for your GitHub username and password. You can use a Personal Ac
   ```bash
   sudo vim /etc/nginx/sites-available/<nginx-file-name>
   ```
+
 - Paste the provided server configuration inside the file created.
+
   ```bash
   server {
     listen 80 default_server;
@@ -81,6 +83,7 @@ it will ask you for your GitHub username and password. You can use a Personal Ac
       }
   }
   ```
+  
 - Activate the configuration using the following command:
 
   ```bash
