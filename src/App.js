@@ -17,7 +17,7 @@ function App() {
 
   const toGithubRepo = () => {
     // Redirect users to subscribe to the YouTube channel
-    window.open('https://github.com/codewithmuh/django-aws-ec2-nginx-gunicorn.git', '_blank');
+    window.open('https://github.com/codewithmuh/react-aws-ec2-nginx.git', '_blank');
   }
 
   return (
