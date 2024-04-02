@@ -35,9 +35,9 @@ Coming soon in 2 days at [CodeWithMuh YouTube Channel](https://youtube.com/@code
 
 ```bash
 sudo apt-get update -y
-sudo apt install npm -y
 curl -fsSL https://deb.nodesource.com/setup_20.x | sudo -E bash -
 sudo apt install -y nodejs
+sudo apt install npm -y
 sudo apt install nginx -y
 ```
 ### Step 4: Cloning ReactJS App to EC2
@@ -65,6 +65,14 @@ it will ask you for your GitHub username and password. You can use a Personal Ac
   sudo cp -R build/ /var/www/vhosts/frontend/
   ```
 ### Step 7: Create Nginx File
+with this command, you can check if already a default nginx file exists. You have to remove it.
+
+
+```bash
+cd /etc/nginx/sites-enabled/
+sudo rm -rf default
+```
+
 - Create a configuration file for Nginx using the following command:
   ```bash
   sudo vim /etc/nginx/sites-available/<nginx-file-name>
