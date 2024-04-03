@@ -18,7 +18,7 @@ Setting up a web application on an AWS EC2 instance involves several steps, from
 
 ### Complete YouTube Video Tutorial:
 
-Coming soon in 2 days at [CodeWithMuh YouTube Channel](https://youtube.com/@codewithmuh?sub_confirmation=1)
+https://youtu.be/UK_OVKDRArs?si=G620QaGNjJOA0LGR
 
 ### Step 1: Launch an AWS EC2 Ubuntu Server
 
